@@ -17,6 +17,7 @@
 		FFBDB764225649490020F6B3 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBDB763225649490020F6B3 /* SearchResultCell.xib */; };
 		FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */; };
 		FFBDB76822564F8E0020F6B3 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBDB76722564F8E0020F6B3 /* NothingFoundCell.xib */; };
+		FFC0F8F0226A0C2E0051DD40 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC0F8EF226A0C2E0051DD40 /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FFBDB763225649490020F6B3 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		FFBDB76722564F8E0020F6B3 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		FFC0F8EF226A0C2E0051DD40 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				FF6AEAB22254EEA700C616CE /* LaunchScreen.storyboard */,
 				FF6AEAB52254EEA700C616CE /* Info.plist */,
 				FF6AEAAD2254EEA600C616CE /* StoreSearch.xcdatamodeld */,
+				FFC0F8EF226A0C2E0051DD40 /* LoadingCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				FF6AEAB42254EEA700C616CE /* LaunchScreen.storyboard in Resources */,
 				FF6AEAB12254EEA700C616CE /* Assets.xcassets in Resources */,
+				FFC0F8F0226A0C2E0051DD40 /* LoadingCell.xib in Resources */,
 				FFBDB764225649490020F6B3 /* SearchResultCell.xib in Resources */,
 				FFBDB76822564F8E0020F6B3 /* NothingFoundCell.xib in Resources */,
 				FF6AEAAC2254EEA600C616CE /* Main.storyboard in Resources */,
