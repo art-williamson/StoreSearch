@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF0792062270A68400CCDE12 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0792052270A68400CCDE12 /* GradientView.swift */; };
 		FF0828B02254F9A800CB91CE /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0828AF2254F9A800CB91CE /* SearchResult.swift */; };
 		FF55FB81226F51C600FB1EEC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF55FB80226F51C600FB1EEC /* DetailViewController.swift */; };
 		FF55FB83226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF55FB82226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF0792052270A68400CCDE12 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		FF0828AF2254F9A800CB91CE /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		FF55FB80226F51C600FB1EEC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FF55FB82226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingPresentationControllerswift.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				FFC0F8EF226A0C2E0051DD40 /* LoadingCell.xib */,
 				FFDE49D2226E0E4300ED429A /* UIImageView+DownloadImage.swift */,
 				FF55FB82226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift */,
+				FF0792052270A68400CCDE12 /* GradientView.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				FF55FB83226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift in Sources */,
 				FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */,
 				FF55FB81226F51C600FB1EEC /* DetailViewController.swift in Sources */,
+				FF0792062270A68400CCDE12 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
