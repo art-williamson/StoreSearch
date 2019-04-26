@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF039A542273475500A4C5F3 /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF039A532273475500A4C5F3 /* BounceAnimationController.swift */; };
+		FF039A5622734A6000A4C5F3 /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF039A5522734A6000A4C5F3 /* SlideOutAnimationController.swift */; };
 		FF0792062270A68400CCDE12 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0792052270A68400CCDE12 /* GradientView.swift */; };
 		FF0828B02254F9A800CB91CE /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0828AF2254F9A800CB91CE /* SearchResult.swift */; };
 		FF55FB81226F51C600FB1EEC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF55FB80226F51C600FB1EEC /* DetailViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF039A532273475500A4C5F3 /* BounceAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
+		FF039A5522734A6000A4C5F3 /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
 		FF0792052270A68400CCDE12 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		FF0828AF2254F9A800CB91CE /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		FF55FB80226F51C600FB1EEC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				FFDE49D2226E0E4300ED429A /* UIImageView+DownloadImage.swift */,
 				FF55FB82226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift */,
 				FF0792052270A68400CCDE12 /* GradientView.swift */,
+				FF039A532273475500A4C5F3 /* BounceAnimationController.swift */,
+				FF039A5522734A6000A4C5F3 /* SlideOutAnimationController.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -188,9 +194,11 @@
 				FF6AEAA72254EEA600C616CE /* AppDelegate.swift in Sources */,
 				FFDE49D3226E0E4300ED429A /* UIImageView+DownloadImage.swift in Sources */,
 				FF0828B02254F9A800CB91CE /* SearchResult.swift in Sources */,
+				FF039A542273475500A4C5F3 /* BounceAnimationController.swift in Sources */,
 				FF6AEAAF2254EEA600C616CE /* StoreSearch.xcdatamodeld in Sources */,
 				FF55FB83226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift in Sources */,
 				FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */,
+				FF039A5622734A6000A4C5F3 /* SlideOutAnimationController.swift in Sources */,
 				FF55FB81226F51C600FB1EEC /* DetailViewController.swift in Sources */,
 				FF0792062270A68400CCDE12 /* GradientView.swift in Sources */,
 			);
