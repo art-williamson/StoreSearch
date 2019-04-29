@@ -106,11 +106,18 @@ class SearchViewController: UIViewController {
         guard landscapeVC == nil else { return }
         landscapeVC = storyboard!.instantiateViewController(withIdentifier: "LandscapeViewController") as? LandscapeViewController
         if let controller = landscapeVC {
+            controller.searchResults = searchResults
             controller.view.frame = view.bounds
             controller.view.alpha = 0
             view.addSubview(controller.view)
             addChild(controller)
-            coordinator.animate(alongsideTransition: { _ in controller.view.alpha = 1 }, completion: { _ in controller.didMove(toParent: self)})
+            coordinator.animate(alongsideTransition: { _ in
+                                controller.view.alpha = 1
+                                self.searchBar.resignFirstResponder()
+                                if self.presentedViewController != nil {
+                                    self.dismiss(animated: true, completion: nil)
+                                }},
+                                completion: { _ in controller.didMove(toParent: self)})
         }
     }
 

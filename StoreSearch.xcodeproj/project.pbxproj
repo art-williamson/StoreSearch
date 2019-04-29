@@ -24,6 +24,7 @@
 		FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */; };
 		FFBDB76822564F8E0020F6B3 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBDB76722564F8E0020F6B3 /* NothingFoundCell.xib */; };
 		FFC0F8F0226A0C2E0051DD40 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC0F8EF226A0C2E0051DD40 /* LoadingCell.xib */; };
+		FFC80A532277476500543257 /* FadeOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC80A522277476500543257 /* FadeOutAnimationController.swift */; };
 		FFDE49D3226E0E4300ED429A /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE49D2226E0E4300ED429A /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		FFBDB76722564F8E0020F6B3 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		FFC0F8EF226A0C2E0051DD40 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		FFC80A522277476500543257 /* FadeOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutAnimationController.swift; sourceTree = "<group>"; };
 		FFDE49D2226E0E4300ED429A /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 				FF0792052270A68400CCDE12 /* GradientView.swift */,
 				FF039A532273475500A4C5F3 /* BounceAnimationController.swift */,
 				FF039A5522734A6000A4C5F3 /* SlideOutAnimationController.swift */,
+				FFC80A522277476500543257 /* FadeOutAnimationController.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				FF55FB83226F54CE00FB1EEC /* DimmingPresentationControllerswift.swift in Sources */,
 				FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */,
 				FF039A5622734A6000A4C5F3 /* SlideOutAnimationController.swift in Sources */,
+				FFC80A532277476500543257 /* FadeOutAnimationController.swift in Sources */,
 				FF55FB81226F51C600FB1EEC /* DetailViewController.swift in Sources */,
 				FF039A5822734BE700A4C5F3 /* LandscapeViewController.swift in Sources */,
 				FF0792062270A68400CCDE12 /* GradientView.swift in Sources */,
