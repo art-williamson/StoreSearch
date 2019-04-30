@@ -51,7 +51,16 @@ class LandscapeViewController: UIViewController {
         pageControl.frame = CGRect(x: 0, y: view.frame.size.height - pageControl.frame.size.height, width: view.frame.size.width, height: pageControl.frame.size.height)
         if firstTime {
             firstTime = false
-            tileButtons(search.searchResults)
+            switch search.state {
+            case .notSearchedYet:
+                break
+            case .loading:
+                break
+            case .noResults:
+                break
+            case .results(let list):
+                tileButtons(list)
+            }
         }
     }
 
@@ -95,19 +104,15 @@ class LandscapeViewController: UIViewController {
         var column = 0
         var x = marginX
         for (index, result) in searchResults.enumerated() {
-            // 1
             let button = UIButton(type: .custom)
             button.setBackgroundImage(UIImage(named: "LandscapeButton"), for: .normal)
             downloadImage(for: result, andPlaceOn: button)
             button.backgroundColor = UIColor.white
             button.setTitle("\(index)", for: .normal)
-            // 2
             button.frame = CGRect(x: x + paddingHorz,
                                   y: marginY + CGFloat(row)*itemHeight + paddingVert,
                                   width: buttonWidth, height: buttonHeight)
-            // 3
             scrollView.addSubview(button)
-            // 4
             row += 1
             if row == rowsPerPage {
                 row = 0; x += itemWidth; column += 1
