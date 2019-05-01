@@ -38,7 +38,7 @@
                                 <items>
                                     <navigationItem id="bAd-WB-UHX">
                                         <nil key="title"/>
-                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="hFU-ng-lIu">
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="hFU-ng-lIu">
                                             <rect key="frame" x="134" y="1" width="300" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <segments>
@@ -85,7 +85,7 @@
         <scene sceneID="B6K-RD-QVP">
             <objects>
                 <viewController id="6tL-Cu-XgF" userLabel="Detail" customClass="DetailViewController" customModule="StoreSearch" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="j0h-2b-0gA">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="j0h-2b-0gA">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -207,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nl3-U5-D1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1125" y="134.1549295774648"/>
+            <point key="canvasLocation" x="1160" y="-349"/>
         </scene>
         <!--Landscape-->
         <scene sceneID="sbs-88-wy4">
@@ -238,15 +238,19 @@
                     <connections>
                         <outlet property="pageControl" destination="TvQ-ja-yYK" id="dPM-ej-v9q"/>
                         <outlet property="scrollView" destination="Nh2-Wo-w3z" id="dx1-f9-vbd"/>
+                        <segue destination="6tL-Cu-XgF" kind="presentation" identifier="ShowDetail" id="CEP-WJ-aQG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Bz-DT-ir2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2055.6338028169016" y="131.25"/>
+            <point key="canvasLocation" x="138" y="-894"/>
         </scene>
     </scenes>
     <resources>
         <image name="CloseButton" width="15" height="15"/>
         <image name="PriceButton" width="11" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="CEP-WJ-aQG"/>
+    </inferredMetricsTieBreakers>
 </document>
