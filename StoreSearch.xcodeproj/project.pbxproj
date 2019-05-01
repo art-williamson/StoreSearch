@@ -20,6 +20,7 @@
 		FF6AEAAF2254EEA600C616CE /* StoreSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF6AEAAD2254EEA600C616CE /* StoreSearch.xcdatamodeld */; };
 		FF6AEAB12254EEA700C616CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6AEAB02254EEA700C616CE /* Assets.xcassets */; };
 		FF6AEAB42254EEA700C616CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6AEAB22254EEA700C616CE /* LaunchScreen.storyboard */; };
+		FFBB465C2278992F00CE92E6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB465B2278992F00CE92E6 /* Search.swift */; };
 		FFBDB764225649490020F6B3 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBDB763225649490020F6B3 /* SearchResultCell.xib */; };
 		FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */; };
 		FFBDB76822564F8E0020F6B3 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBDB76722564F8E0020F6B3 /* NothingFoundCell.xib */; };
@@ -44,6 +45,7 @@
 		FF6AEAB02254EEA700C616CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF6AEAB32254EEA700C616CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF6AEAB52254EEA700C616CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBB465B2278992F00CE92E6 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		FFBDB763225649490020F6B3 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		FFBDB76722564F8E0020F6B3 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				FF039A532273475500A4C5F3 /* BounceAnimationController.swift */,
 				FF039A5522734A6000A4C5F3 /* SlideOutAnimationController.swift */,
 				FFC80A522277476500543257 /* FadeOutAnimationController.swift */,
+				FFBB465B2278992F00CE92E6 /* Search.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				FF55FB81226F51C600FB1EEC /* DetailViewController.swift in Sources */,
 				FF039A5822734BE700A4C5F3 /* LandscapeViewController.swift in Sources */,
 				FF0792062270A68400CCDE12 /* GradientView.swift in Sources */,
+				FFBB465C2278992F00CE92E6 /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
