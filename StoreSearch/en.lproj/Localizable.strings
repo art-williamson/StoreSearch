@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  StoreSearch
+
+  Created by Art Williamson on 5/3/19.
+  Copyright © 2019 Art Williamson. All rights reserved.
+*/
+
+/* Localized kind: Album */
+"Album" = "Album";
+/* Localized kind: Software */
+"App" = "App";
+/* Localized kind: Audio Book */
+"Audio Book" = "Audio Book";
+/* Localized kind: Book */
+"Book" = "Book";
+/* Localized kind: E-Book */
+"E-Book" = "E-Book";
+/* Localized kind: Feature Movie */
+"Movie" = "Movie";
+/* Localized kind: Music Video */
+"Music Video" = "Music Video";
+/* Localized kind: Podcast */
+"Podcast" = "Podcast";
+/* Localized kind: Song */
+"Song" = "Song";
+/* Localized kind: TV Episode */
+"TV Episode" = "TV Episode";
+/* Format for artist name label */
+"ARTIST_NAME_LABEL_FORMAT" = "%1$@ (%2$@)";
