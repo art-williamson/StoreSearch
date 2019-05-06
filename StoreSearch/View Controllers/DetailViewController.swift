@@ -10,8 +10,15 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    var searchResult: SearchResult!
+    var searchResult: SearchResult! {
+        didSet {
+            if isViewLoaded {
+                updateUI()
+            }
+        }
+    }
     var downloadTask: URLSessionDownloadTask?
+    var isPopUp = false
 
     enum AnimationStyle {
         case slide
@@ -26,14 +33,24 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         view.tintColor = UIColor(red: 20/255, green: 160/255, blue: 160/225, alpha: 1)
         popupView.layer.cornerRadius = 10
-        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(close))
-        gestureRecognizer.cancelsTouchesInView = false
-        gestureRecognizer.delegate = self
-        view.addGestureRecognizer(gestureRecognizer)
+        if isPopUp {
+            let gestureRecognizer = UITapGestureRecognizer(target: self,
+                                                           action: #selector(close))
+            gestureRecognizer.cancelsTouchesInView = false
+            gestureRecognizer.delegate = self
+            view.addGestureRecognizer(gestureRecognizer)
+            view.backgroundColor = UIColor.clear
+        } else {
+            view.backgroundColor = UIColor(patternImage:
+                UIImage(named: "LandscapeBackground")!)
+            popupView.isHidden = true
+            if let displayName = Bundle.main.localizedInfoDictionary?["CFBundleDispayName"] as? String {
+                title = displayName
+            }
+        }
         if searchResult != nil {
             updateUI()
         }
-        view.backgroundColor = UIColor.clear
     }
 
     //MARK: Outlets
@@ -92,6 +109,7 @@ class DetailViewController: UIViewController {
         if let largeUrl = URL(string: searchResult.imageLarge) {
             downloadTask = artworkImageView.loadImage(url: largeUrl)
         }
+        popupView.isHidden = false
     }
 
     deinit {
