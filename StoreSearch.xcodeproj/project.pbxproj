@@ -27,6 +27,7 @@
 		FFBDB764225649490020F6B3 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBDB763225649490020F6B3 /* SearchResultCell.xib */; };
 		FFBDB76622564CC90020F6B3 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */; };
 		FFC80A532277476500543257 /* FadeOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC80A522277476500543257 /* FadeOutAnimationController.swift */; };
+		FFDC0C17228C644B0001F667 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC0C16228C644B0001F667 /* MenuViewController.swift */; };
 		FFDE49D3226E0E4300ED429A /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDE49D2226E0E4300ED429A /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		FFBDB763225649490020F6B3 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		FFBDB76522564CC90020F6B3 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		FFC80A522277476500543257 /* FadeOutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeOutAnimationController.swift; sourceTree = "<group>"; };
+		FFDC0C16228C644B0001F667 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FFDE49D2226E0E4300ED429A /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				FF6AEAA82254EEA600C616CE /* SearchViewController.swift */,
 				FF55FB80226F51C600FB1EEC /* DetailViewController.swift */,
 				FF039A5722734BE700A4C5F3 /* LandscapeViewController.swift */,
+				FFDC0C16228C644B0001F667 /* MenuViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				FF6AEAA92254EEA600C616CE /* SearchViewController.swift in Sources */,
 				FF6AEAA72254EEA600C616CE /* AppDelegate.swift in Sources */,
+				FFDC0C17228C644B0001F667 /* MenuViewController.swift in Sources */,
 				FFDE49D3226E0E4300ED429A /* UIImageView+DownloadImage.swift in Sources */,
 				FF0828B02254F9A800CB91CE /* SearchResult.swift in Sources */,
 				FF039A542273475500A4C5F3 /* BounceAnimationController.swift in Sources */,
